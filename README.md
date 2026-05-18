@@ -4,6 +4,7 @@ An end-to-end full-stack data platform that combines data engineering, analytics
 
 ![image alt](https://github.com/pearl31patel/retail-sales-intelligence/blob/80226c32f9c73f0375e9c115756c0131abebedca/img1.png)
 ![image alt](https://github.com/pearl31patel/retail-sales-intelligence/blob/41bd456f113f8c5914d01aa29c74271227bfe635/img2.png)
+![image alt](https://github.com/pearl31patel/retail-sales-intelligence/blob/83642edb52384d8cf3497d80c203aad0d12c0084/img3.png)
 
 ## Live Demo
 
