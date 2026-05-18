@@ -1,0 +1,6 @@
+backend/venv/
+backend/.env
+backend/retail.db
+backend/models/*.pkl
+frontend/node_modules/
+.DS_Store

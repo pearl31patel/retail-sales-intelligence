@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Oswald", sans-serif;
+}
+
+.prediction-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #334155;
+  font-size: 14px;
+}
+
+.form-field input,
+.form-field select {
+  width: 100%;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+  background: white;
+  outline: none;
+}
+
+.prediction-actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.predict-button {
+  padding: 16px 28px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.prediction-result {
+  padding: 16px 24px;
+  border-radius: 18px;
+  background: #dcfce7;
+  color: #166534;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+@media (max-width: 900px) {
+  .prediction-form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .prediction-form {
+    grid-template-columns: 1fr;
+  }
+
+  .prediction-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .predict-button,
+  .prediction-result {
+    width: 100%;
+    text-align: center;
+  }
+}
