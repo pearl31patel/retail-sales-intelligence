@@ -2,6 +2,12 @@
 
 An end-to-end full-stack data platform that combines data engineering, analytics, machine learning, and AI-powered business intelligence for retail sales analysis.
 
+## Live Demo
+
+Frontend: https://retail-sales-intelligence.netlify.app/  
+Backend API: https://retail-sales-api-vjo9.onrender.com/  
+API Docs: https://retail-sales-api-vjo9.onrender.com/docs
+
 ## Features
 
 - ETL pipeline for retail sales data processing
