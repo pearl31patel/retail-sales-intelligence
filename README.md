@@ -2,6 +2,8 @@
 
 An end-to-end full-stack data platform that combines data engineering, analytics, machine learning, and AI-powered business intelligence for retail sales analysis.
 
+![image alt](https://github.com/pearl31patel/retail-sales-intelligence/blob/80226c32f9c73f0375e9c115756c0131abebedca/img1.png)
+
 ## Live Demo
 
 Frontend: https://retail-sales-intelligence.netlify.app/  
